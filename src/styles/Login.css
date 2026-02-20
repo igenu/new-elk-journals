@@ -1,0 +1,126 @@
+.da-login-container {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--color-bg-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ WIDE CARD */
+.da-login-card {
+  width: 520px;
+  max-width: 450px;
+  padding: 40px;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-card);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+}
+
+/* ✅ HEADER */
+.da-header h2 {
+  margin: 0;
+  font-size: 28px;
+  color: var(--color-text-dark);
+}
+
+.da-header p {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin-bottom: 30px;
+}
+
+.da-header {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, var(--color-btn-primary), #4f79b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ✅ FORM */
+.da-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+}
+
+/* ✅ INPUT GROUP */
+.da-input-group {
+  width: 100%;
+  text-align: left;
+}
+
+.da-input-group label {
+  font-size: 14px;
+  color: var(--color-label);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+/* ✅ LABEL ICON */
+.da-label-icon {
+  color: var(--color-primary);
+  font-size: 16px;
+}
+
+/* ✅ INPUT FIELD */
+.da-input-group input {
+  width: 100%;
+  padding: 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-input-border);
+  font-size: 16px;
+  background: var(--color-input-bg);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* ✅ INPUT FOCUS */
+.da-input-group input:focus {
+  border-color: var(--color-btn-primary);
+  box-shadow: 0 0 0 3px rgba(32, 64, 102, 0.15);
+}
+
+/* ✅ BUTTON USING #204066 */
+.da-login-btn {
+  width: 100%;
+  padding: 16px;
+  background: var(--color-btn-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.da-login-btn:hover {
+  background: var(--color-btn-hover);
+}
+
+/* ✅ ERROR */
+.da-error {
+  color: var(--color-error);
+  font-size: 13px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* ✅ FOOTER */
+.da-footer {
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}

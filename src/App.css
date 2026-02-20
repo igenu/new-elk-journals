@@ -1,0 +1,59 @@
+:root {
+  /* ✅ BRAND COLOR */
+  --color-primary: #204066;
+
+  /* ✅ BACKGROUNDS */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-input-bg: #f5f8fc;
+
+  /* ✅ TEXT */
+  --color-text-dark: #222222;
+  --color-text-muted: #777777;
+  --color-label: #555555;
+
+  /* ✅ BORDERS */
+  --color-input-border: #dddddd;
+
+  /* ✅ STATES */
+  --color-error: #ff3b3b;
+
+  /* ✅ BUTTON */
+  --color-btn-primary: var(--color-primary);
+  --color-btn-hover: #162e59;
+
+  /* ✅ SHADOW */
+  --shadow-card: 0px 12px 30px rgba(0, 0, 0, 0.15);
+
+  /* ✅ RADIUS */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* ✅ FONT */
+  --font-main: Arial, sans-serif;
+}
+
+/* ✅ RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ✅ BODY */
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg-main);
+}
+
+/* ✅ SweetAlert2 z-index fix - ensure modals appear above footer */
+.swal2-container {
+  z-index: 99999 !important;
+}
+
+.swal2-popup {
+  z-index: 99999 !important;
+}
